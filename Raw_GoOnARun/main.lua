@@ -1,14 +1,3 @@
---[[
-
-Game made for our CTE Task.
-
-Made by:
-Aayush
-Shaunak
-Nikhil
-
-]]
-
 local gameInfo = { -- Stores all the memory and information for the game.
     Background = { Image = nil, Scale = 1, Width = 0, X = 0 },
 
@@ -665,3 +654,4 @@ function love.draw()
 
     love.graphics.pop() -- Popping at the exit.
 end
+
