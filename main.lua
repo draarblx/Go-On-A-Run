@@ -46,7 +46,7 @@ local gameInfo = { -- Stores all the memory and information for the game.
             CurrentFrame = 1, AnimationTimer = 0
         },
 
-        [4] = { Keybinds = { Jump = "kp8", Left = "kp4", Right = "kp6" }, FormattedKeybings = { Jump = "Keypad 8", Left = "Keypad 4", Right = "Keypad 6" }, ImgID = "assets/player4.png", Image = nil, Quads = {},
+        [4] = { Keybinds = { Jump = "t", Left = "f", Right = "h" }, ImgID = "assets/player4.png", Image = nil, Quads = {},
             Position = { x = 700, y = 450 }, StartingPosition = { x = 700, y = 450 },
             Dead = false, Velocity = { x = 0, y = 0 }, IsJumping = false,
             CurrentFrame = 1, AnimationTimer = 0
@@ -575,4 +575,3 @@ function love.draw()
         love.graphics.draw(sectionImg, 850 - (sectionImg:getWidth() * scale) / 2, 10, 0, scale, scale) 
     end 
 end
-
